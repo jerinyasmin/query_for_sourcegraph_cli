@@ -16,7 +16,6 @@ src search "context:global select:file visibility:public count:all lang:Python c
 src search "context:global select:file visibility:public count:all lang:Python content:'import flair' AND load\(" > result_file_import_flair_load.csv
 src search "context:global select:file visibility:public count:all lang:Python content:'import fairseq' AND load_model_ensemble_and_task_from_hf_hub\(" > result_file_import_fairseq_load_model_ensemble_and_task_from_hf_hub.csv
 src search "context:global select:file visibility:public count:all lang:Python content:'import huggingface_hub' AND from_pretrained_keras\(" > result_file_import_huggingface_hub_from_pretrained_keras.csv
-src search "context:global select:file visibility:public count:all lang:Python content:'import huggingface_hub' AND load\(" > result_file_import_huggingface_hub_load.csv
 src search "context:global select:file visibility:public count:all lang:Python content:'import huggingface_hub' AND from_pretrained_fastai\(" > result_file_import_huggingface_hub_from_pretrained_fastai.csv
 src search "context:global select:file visibility:public count:all lang:Python content:'import huggingface_hub' AND hf_hub_download\(" > result_file_import_huggingface_hub_hf_hub_download.csv
 src search "context:global select:file visibility:public count:all lang:Python content:'import bertopic' AND load\(" > result_file_import_bertopic_load.csv
